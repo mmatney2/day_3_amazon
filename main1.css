@@ -1,0 +1,115 @@
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px black
+
+}
+main form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+    width:18vw;
+    border:1px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#signin{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#password{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+#password_label{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+h3 {
+    font: 6px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+    margin:auto;
+    display:block;
+    
+    
+}
+#Create{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.create{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 5vh;
+    width:18vw;
+    border:1px transparent;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    text-size-adjust: 9px;
+}
+nav ul{
+    
+    margin: 0;
+    list-style-type: none;
+    width: 97%;
+    padding: 20px;
+    text-align: center
+    
+}
+nav{
+    display: block;
+    color: white;
+}
+nav a{
+    
+    text-decoration: none;
+
+}
+#submit{
+    background-color: gold;
+    
+}
+
+nav a:hover{
+    color: white;
+
+}
+footer{
+    text-align:center;
+}
